@@ -14,7 +14,7 @@ namespace Blog.Repository
     {
         public BaseRepository(ISqlSugarClient context = null) : base(context)
         {
-            base.Context = DbScoped.SugarScope;
+            base.Context = DbScoped.Sugar;
         }
         public Task<bool> CreateAsync(TEntity entity)
         {
