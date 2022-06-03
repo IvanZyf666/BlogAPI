@@ -1,1 +1,1 @@
-# ManagementSystem with ASP.NET
+# Blog API with ASP.NET Core
