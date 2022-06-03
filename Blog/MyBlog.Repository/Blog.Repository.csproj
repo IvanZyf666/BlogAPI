@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="SqlSugar.IOC" Version="1.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Blog.IRepository\Blog.IRepository.csproj" />
   </ItemGroup>
 

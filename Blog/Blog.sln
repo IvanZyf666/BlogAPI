@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.WebApi", "Blog.WebApi\Blog.WebApi.csproj", "{019DDACE-7BFC-4991-BA86-29CF935DF66B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.WebApi", "Blog.WebApi\Blog.WebApi.csproj", "{019DDACE-7BFC-4991-BA86-29CF935DF66B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Model", "Blog.Model\Blog.Model.csproj", "{18C2C242-9E0E-4A69-86C4-782AB2FE1E64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.Model", "Blog.Model\Blog.Model.csproj", "{18C2C242-9E0E-4A69-86C4-782AB2FE1E64}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{736AB43B-1EDF-45FB-AFB0-CEFE608562A2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{96D865CE-376B-48E1-9636-D04C304EF190}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.IRepository", "Blog.IRepository\Blog.IRepository.csproj", "{DC1709E7-B991-46FD-A45D-CED3FDDE3A98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.IRepository", "Blog.IRepository\Blog.IRepository.csproj", "{DC1709E7-B991-46FD-A45D-CED3FDDE3A98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Repository", "MyBlog.Repository\Blog.Repository.csproj", "{56DDA226-F5C9-4ECD-ACB1-9534F4321EAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.Repository", "MyBlog.Repository\Blog.Repository.csproj", "{56DDA226-F5C9-4ECD-ACB1-9534F4321EAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.IService", "Blog.IService\Blog.IService.csproj", "{0478471E-1A70-480D-A488-22B800B31DF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Service", "Blog.Service\Blog.Service.csproj", "{08F4BB7B-2076-40E4-A8C0-1563F9345158}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +41,14 @@ Global
 		{56DDA226-F5C9-4ECD-ACB1-9534F4321EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56DDA226-F5C9-4ECD-ACB1-9534F4321EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56DDA226-F5C9-4ECD-ACB1-9534F4321EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0478471E-1A70-480D-A488-22B800B31DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0478471E-1A70-480D-A488-22B800B31DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0478471E-1A70-480D-A488-22B800B31DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0478471E-1A70-480D-A488-22B800B31DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08F4BB7B-2076-40E4-A8C0-1563F9345158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08F4BB7B-2076-40E4-A8C0-1563F9345158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08F4BB7B-2076-40E4-A8C0-1563F9345158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08F4BB7B-2076-40E4-A8C0-1563F9345158}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +56,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{DC1709E7-B991-46FD-A45D-CED3FDDE3A98} = {736AB43B-1EDF-45FB-AFB0-CEFE608562A2}
 		{56DDA226-F5C9-4ECD-ACB1-9534F4321EAA} = {736AB43B-1EDF-45FB-AFB0-CEFE608562A2}
+		{0478471E-1A70-480D-A488-22B800B31DF5} = {96D865CE-376B-48E1-9636-D04C304EF190}
+		{08F4BB7B-2076-40E4-A8C0-1563F9345158} = {96D865CE-376B-48E1-9636-D04C304EF190}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6672B91A-2958-4234-B933-8113B699590C}
